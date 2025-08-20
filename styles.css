@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+h1{
+    color: crimson;
+}
+h2{
+    color: crimson
+}
+#game{
+    width: 19rem;
+    height: 19rem;
+    background-color: rgb(141, 141, 141);
+    margin: auto;
+    padding-left: .75rem;
+    padding-top: .75rem;
+}
+.square{
+    width: 4rem;
+    height: 4rem;
+    margin: .25rem;
+    float: left;
+    background-color:rgb(49, 49, 49);
+    text-align: center;
+}
+
+.tile{
+    width: 4rem;
+    height: 3.5rem;
+    position: absolute;
+    padding-top: .5rem;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.v2{
+    background-color: midnightblue;
+}
+.v4{
+    background-color: rgb(53, 25, 112);
+}
+.v8{
+    background-color: rgb(82, 49, 154);
+}
+.v16{
+    background-color: rgb(137, 95, 229);
+}
